@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "SingnUp";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- LINEARICONS -->
+    <link rel="stylesheet" href="~/colorlib-regform-26/fonts/linearicons/style.css">
+    <link rel="stylesheet" href="~/colorlib-regform-26/fonts/linearicons/style.css">
+    <link rel="stylesheet" href="~/TraversalStarter/assets/css/style-liberty.css">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="~/colorlib-regform-26/css/style.css">
+    <!-- Required meta tags -->
+
+</head>
+
+<body>
+    <!--header-->
+
+
+    <div class="wrapper ">
+        <div class="inner">
+            <img src="~/colorlib-regform-26/images/image-1.png" alt="" class="image-1">
+
+            <form action="/Register/SingnUp" class="mt-5" method="post">
+                <h3>Yeni Hesap Oluştur</h3>
+                <div class="form-holder">
+                    <span class="lnr lnr-user"></span>
+                    <input type="text" class="form-control" placeholder="Ad Soyad" name="Name">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-user"></span>
+                    <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="UserName">
+                </div>
+                <div class="form-holder row">
+                    <span class="lnr lnr-phone-handset col-md-1"></span>
+                    <select class="form-control col-md-4 ">
+                        <option>+90</option>
+
+                    </select>
+                    <input type="text" class="form-control col-xl-7" placeholder="Telefon Numarası " id="notletters" maxlength="10" name="PhoneNumber">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-envelope"></span>
+                    <input type="email" class="form-control" placeholder="Mail Adresiniz" name="Email">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-lock"></span>
+                    <input type="password" class="form-control" placeholder="Şifre" name="PasswordHash">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-lock"></span>
+                    <input type="password" class="form-control" placeholder="Şifre tekrar" name="PasswordR">
+                </div>
+                <button type="submit" class="btn btn-outline-info">
+                    <span>Üye ol</span>
+                </button>
+                <br />
+
+
+                <span class="text-danger mt-3 mb-1 text-justify" > @Html.ValidationSummary()  </span>
+                <span class="text-danger mt-3 mb-1 text-justify">@ViewBag.mailBad</span><br />
+                <span class="text-danger mt-3 mb-1 text-justify">@ViewBag.userBad</span>
+
+                <a href="/Account/Login" class="btn btn-success col-md-9 ml-5">
+                    <span>Hesabın var mı? Giriş yap</span>
+                </a>
+            </form>
+          
+            <img src="~/colorlib-regform-26/images/image-2.png" alt="" class="image-2">
+        </div>
+
+    </div>
+
+    <script src="~/colorlib-regform-26/js/jquery-3.3.1.min.js"></script>
+    <script src="~/colorlib-regform-26/js/main.js"></script>
+    <script>
+        $("#notletters").keyup(function () {
+            $("#notletters").val(this.value.match(/[0-9]*/));
+        });
+
+       
+    </script>
+</body>
+</html>
+

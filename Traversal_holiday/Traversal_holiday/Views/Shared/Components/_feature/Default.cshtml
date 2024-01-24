@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Destination>
+   
+ <link href="~/TraversalStarter/assets/css/style-liberty.css" rel="stylesheet" />
+
+<div class="best-rooms py-5">
+    <div class="container py-md-5">
+        <div class="ban-content-inf row d-flex flex-wrap align-items-center">
+
+            @foreach (var item in Model)
+            {
+               
+
+
+                    <div id="rem"  style="flex-direction: column; object-fit:none; align-items: center; padding: 0; margin: 0;" class ="-gd-1 col-lg-6 row mx-mn-n4 ">
+                        <div  class="maghny-grid row col px-md-4 "  >
+                            <a href="/Destination/Details/@item.destinationId">
+                                <figure class="effect-lily border-radius  m-0">
+                                    <img class="img-fluid " style="object-fit:none" src="@item.destinationImage" alt="" />
+                                    <figcaption>
+                                        <div>
+                                            <h4 class="mt-5">@item.destinationCity</h4>
+                                            <p>Fiyat @item.destinationDayNight </p>
+                                            <p>Fiyat @item.destinationPrice ₺ </p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+
+                
+
+
+
+            }
+            @await Component.InvokeAsync("_feature2")
+        </div>
+    </div>
+</div>
+

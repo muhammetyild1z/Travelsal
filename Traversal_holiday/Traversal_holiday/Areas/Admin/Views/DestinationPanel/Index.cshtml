@@ -1,0 +1,59 @@
+﻿
+@model List<EntityLayer.Concrete.Destination>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<!-- Table within card -->
+
+<div class="table-responsive text-nowrap m-4">
+    <h5 class="text-center"><strong style="color:fuchsia;">Tur Listesi</strong></h5>
+    <table class="table card-table table-hover">
+       
+        <thead>
+            
+            <tr>    
+                <th style="color:fuchsia;">Turun Düzenlendiği Şehir</th>
+                <th style=" color:fuchsia;">Süre</th>
+                <th style=" color:fuchsia;">Fiyat</th>
+                <th style=" color:fuchsia;">Görünürlük</th>
+                <th style=" color:fuchsia;">Kapasite</th>
+                <th style=" color:fuchsia;">Turun Yapılacağı Tarih</th>
+                <th style=" color:fuchsia;">Sisteme Eklenme Tarihi</th>
+                <th style=" color:fuchsia;">Turu Ekleyen Rehber</th>
+                <th style=" color:fuchsia;">İşlem</th>
+
+            </tr>
+        </thead>
+        <tbody class="table-border-bottom-0">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.destinationCity</strong></td>
+                    <td>@item.destinationDayNight</td>
+                    <td>@item.destinationPrice</td>
+                    <td>@item.destinationStatus</td>
+                    <td>@item.destinationCapacity</td>
+                    <td>@item.destinationDate.ToString("dd MMM yyyy")</td>
+                    <td>@item.destinationcreateDate.ToString("dd MMM yyyy")</td>
+                    <td>@item.Guide.guideName</td>
+                    <td>
+                        <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/Admin/DestinationPanel/destinationUp/@item.destinationId"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
+                                <a class="dropdown-item" href="/Admin/DestinationPanel/destinationRemove/@item.destinationId"><i class="bx bx-trash me-1"></i> Sil</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>
+<!--/ Table within card -->

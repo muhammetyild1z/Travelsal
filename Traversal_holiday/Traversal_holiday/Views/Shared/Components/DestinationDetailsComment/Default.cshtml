@@ -1,0 +1,30 @@
+﻿
+
+<div class="leave-comment-form mt-5" id="reply">
+    <h4 class="side-title mb-2">Yorum Bırakın</h4>
+    <p class="mb-4">
+
+        E-posta hesabınız yayımlanmayacak. Gerekli alanlar işaretlendi *
+    </p>
+    <form action="/Comment/AddComment/@ViewBag.id" method="post">
+
+        <div class="form-group">
+            <textarea name="commetContent" class="form-control" placeholder="Yorum alanı..*" required=""
+                      spellcheck="false"></textarea>
+        </div>
+        <div class="input-grids row">
+
+            <div class="form-group col-lg-6">
+                <input type="text" name="commetUser" class="form-control" placeholder="Ad Soyad*"
+                       required="">
+            </div>
+            <div class="form-group col-lg-6">
+                <input type="email" name="commetMail" class="form-control" placeholder="Mail Adresi*" required="">
+            </div>
+        </div>
+
+        <div class="submit text-right">
+            <button class="btn btn-style btn-primary" type="submit">Yorumu Paylaş </button>
+        </div>
+    </form>
+</div>

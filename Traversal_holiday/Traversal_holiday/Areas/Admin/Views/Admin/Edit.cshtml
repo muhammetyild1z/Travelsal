@@ -1,0 +1,55 @@
+﻿@model EntityLayer.Concrete.AppUser
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<style>
+    .form-label {
+        color: fuchsia;
+    }
+</style>
+<div class="m-5 align-content-center">
+    <form method="post" action="/Admin/Admin/Edit" enctype="multipart/form-data" class="row">
+        <label class="form-label text-lg-center">Kullanıcılar</label>
+
+        <div class="form-group col-md-8">
+            @Html.HiddenFor(x => x.Id)
+            <label class="form-label">Adı</label>
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })<br />
+
+            <label class="form-label">Profil Fotografı</label><br />
+            <input type="file" class="form-label" asp-for="ImagerUrl" /><br />
+            <label class="form-label">Soyadı</label>
+            
+            @Html.TextBoxFor(x => x.SurName, new { @class = "form-control" })
+            <label class="form-label">Gender</label>
+            
+            @Html.TextBoxFor(x => x.Gender, new { @class = "form-control" })
+            <label class="form-label">Email Adresi</label>
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control "})
+           
+            <br />
+            <label class="form-label">Telefon Numarası</label>
+            @Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control" , @type = "number"})
+           
+        </div>
+       
+        @Html.ValidationSummary()
+        <button type="submit" class="btn btn-info col-md-6 mt-3">Kaydet</button>
+
+    </form>
+    @if (ViewBag.success == 1)
+    {
+        <script>
+            swal({
+                title: "İşlem Başarılı..",
+                text: "Tur Başarıyla Güncellendi",
+                icon: "success",
+                button: "Tamam",
+            });
+        </script>
+    }
+
+</div>
+

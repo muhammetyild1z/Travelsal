@@ -1,0 +1,90 @@
+﻿@model List<EntityLayer.Concrete.AppUser>
+@{
+    ViewData["Title"] = "Customer";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<br />
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0 ">
+                    <h6 class="text-bolder  text-center"> Müşteriler</h6>
+                </div><br />
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ad</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Email</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Kullanıcı Adı</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Telefon Numarası</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+
+                                                <div class="d-flex flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm">@item.Name</h6>
+                                                    @*<p class="text-xs text-secondary mb-0">@item.Destination.</p>*@
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="mb-0 text-sm">@item.Email</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="mb-0 text-sm">@item.UserName</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="mb-0 text-sm">@item.PhoneNumber</span>
+                                        </td>
+                                        
+                                        <td class="align-middle text-center text-sm">
+
+                                            <a id="sil"  href="/Admin/Admin/Delete/@item.Id"> <span class="btn btn-danger">Sil</span></a>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <a href="/Admin/Admin/Edit/@item.Id"> <span class="btn btn-info">Düzenle</span></a>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <a href="/Admin/Admin/Info/@item.Id"> <span class="">Detay</span></a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<br />
+   <script>
+
+       var btnsil=document.getElementById("sil");
+	btnsil.onclick=
+        swal({
+            title: "İşlem Başarılı..",
+            text: "Kullanıcı Silindi..",
+            icon: "success",
+            button: "Tamam",
+        });
+	   
+         
+        </script>
+

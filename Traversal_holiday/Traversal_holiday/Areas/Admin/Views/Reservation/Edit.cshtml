@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Concrete.Reservation
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+
+<form class="form-control m-4" method="post">
+
+    <label>Rezervasyonu Yapan Kullanıcı</label>
+    <input class="form-control" asp-for="AppUser.Email" />
+    <label>Kaç Kişi</label>
+    <input class="form-control" asp-for="rezCount" />
+    <label>Rezervasyonun Onay Durumu</label>
+    <input class="form-control" asp-for="rezStatus" />
+    <label>Rezervasyonun Özel Açıklama</label>
+    <input class="form-control" asp-for="Description" />
+    <label>Rezervasyonun Rotası</label>
+    <input class="form-control" asp-for="Destination.destinationCity" />
+       <button type="submit" class="btn btn-info m-3 ">Güncelle</button>
+ </form>
+
+

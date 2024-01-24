@@ -1,0 +1,45 @@
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll

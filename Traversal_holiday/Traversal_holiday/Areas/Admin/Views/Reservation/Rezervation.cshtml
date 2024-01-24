@@ -1,0 +1,82 @@
+﻿
+
+@model List<EntityLayer.Concrete.Reservation>
+@{
+    ViewData["Title"] = "Rezervation";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<br />
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0 ">
+                    <h6 class="text-bolder  text-center"> Rezervasyonlar</h6>
+                </div><br />
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Reservasyon Sahibi</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Kişi Sayısı</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Rezervasyon Ne Zaman Yapıldı</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Özel Açıklama</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Hangi tur</th>
+                                    
+                                    <th class="text-secondary opacity-7">Tur Onay Durumu</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+
+                                                <div class="d-flex flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm">@item.AppUser.Email</h6>
+                                                    @*<p class="text-xs text-secondary mb-0">@item.Destination.</p>*@
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="badge badge-sm bg-gradient-faded-info">@item.rezCount</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="badge badge-sm bg-gradient-success">@item.rezDate.ToShortDateString()</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="">@item.Description</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="">@item.Destination.destinationCity</span>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="">@item.rezStatus</span>
+                                        </td>
+                                             <td class="align-middle text-center text-sm">
+                                            <a href="/Admin/Reservation/Delete/@item.rezervasyonId"> <span class="btn btn-danger">Sil</span></a>
+                                            </td>
+                                                 <td class="align-middle text-center text-sm">
+                                            <a href="/Admin/Reservation/Edit/@item.rezervasyonId"> <span class="btn btn-info">Düzenle</span></a>
+                                            </td>
+                                                 <td class="align-middle text-center text-sm">
+                                           <a href="/Admin/Reservation/Info/@item.rezervasyonId"> <span class="">Detay</span></a>
+                                            </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<br />
+

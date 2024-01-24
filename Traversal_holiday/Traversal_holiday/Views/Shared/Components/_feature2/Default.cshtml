@@ -1,0 +1,32 @@
+﻿@model List<EntityLayer.Concrete.Destination>
+
+
+<div class="
+     -gd-1 col-lg-6 mt-lg-0 mt-4">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+
+
+            <div class="maghny-gd-1 col-6 mb-4">
+                <div class="maghny-grid">
+                    <a href="/Destination/Details/@item.destinationId">
+                        <figure class="effect-lily border-radius">
+                            <img class="img-fluid" src="@item.destinationImage" alt="" />
+                            <figcaption>
+                                <div class="mb-4">
+                                    <h4>@item.destinationCity</h4>
+                                    <p>@item.destinationDayNight</p>
+                                    <p>Fiyat @item.destinationPrice ₺ </p>
+                                </div>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+
+        }
+    </div>
+</div>

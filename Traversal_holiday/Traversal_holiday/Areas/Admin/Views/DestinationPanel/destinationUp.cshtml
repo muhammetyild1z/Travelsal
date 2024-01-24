@@ -1,0 +1,76 @@
+﻿
+@model EntityLayer.Concrete.Destination
+@{
+    ViewData["Title"] = "destinationUp";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+} 
+<style>
+    .form-label {
+        color: fuchsia;
+    }
+</style>
+<div class="m-5">
+    <form method="post" action="/Admin/DestinationPanel/destinationUp" enctype="multipart/form-data" class="row">
+        <div class="form-group col-md-6 ">
+            @Html.HiddenFor(x => x.destinationId)
+            <label class="form-label">Tur Şehri</label>
+            @Html.TextBoxFor(x => x.destinationCity, new { @class = "form-control" })
+
+            <label class="form-label">Tur Süresi</label>
+            @Html.TextBoxFor(x => x.destinationDayNight, new { @class = "form-control" })
+            <label class="form-label">Tur Fiyatı</label>
+            @*sadece sayi*@
+            @Html.TextBoxFor(x => x.destinationPrice, new { @class = "form-control" })
+            <label class="form-label">Tur Kapasitesi</label>
+            @*sadece sayi*@
+            @Html.TextBoxFor(x => x.destinationCapacity, new { @class = "form-control", @type = "number" }) 
+            <label class="form-label">Tur Tarihi</label>
+            @Html.TextBoxFor(x => x.destinationDate, new { @class = "form-control ", @Display = "display" })
+            @Html.TextBoxFor(x => x.destinationDate, new { @class = "form-control ", @type = "date" })
+
+            <br />
+            <label class="form-label">Turu Düzenleyecek Rehber</label>
+            @Html.DropDownListFor(x => x.guideId, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+            <label class="form-label">Tur Durumu</label>
+            <select class="form-control" asp-for="destinationStatus">
+                <option value="True">Aktif</option>
+                <option value="False">Pasif</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="form-label">Tur Kısa Açıklaması</label>
+            @Html.TextAreaFor(x => x.destinationDescription, new { @class = "form-control" })
+            <label class="form-label">Tur Detaylı Açıklaması</label>
+            @Html.TextAreaFor(x => x.destinationDetails1, new { @class = "form-control", @rows = 8 })
+            <label class="form-label">Tur İçin Dikkat Edilmesi Gerekenler</label>
+            @Html.TextAreaFor(x => x.destinationDetails2, new { @class = "form-control", @rows = 8 })
+           
+            
+
+        </div>
+        <div class="form-group mt-3">
+            <label class="form-label">Tur Banner Fotografı</label>
+            <input asp-for="CoverImage" type="file" class="form-control" />
+            <label class="form-label">Detay Resim 1</label>
+            <input asp-for="destinationImage" type="file" class="form-control" />
+            <label class="form-label">Tur Detay Resim 2</label>
+            <input asp-for="destinationImage2" type="file" class="form-control" />
+
+        </div>
+        @Html.ValidationSummary()
+        <button type="submit" class="btn btn-info mt-3">Kaydet</button>
+
+    </form>
+    @if (ViewBag.success == 1)
+    {
+        <script>
+            swal({
+                title: "İşlem Başarılı..",
+                text: "Tur Başarıyla Güncellendi",
+                icon: "success",
+                button: "Tamam",
+            });
+        </script>
+    }
+
+</div>

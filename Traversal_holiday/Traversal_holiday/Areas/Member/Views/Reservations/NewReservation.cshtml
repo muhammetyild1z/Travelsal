@@ -1,0 +1,56 @@
+﻿@model EntityLayer.Concrete.Reservation
+@{
+    ViewData["Title"] = "NewReservation";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+<br />
+<br />
+
+<p>Rezervasyon Yap</p>
+<br />
+<form method="post">
+    <div class="form-group">
+        <label class="form-label">Lokasyon</label>
+        @Html.DropDownListFor(x => x.destinationId, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label class="form-label">Kişi Sayısı</label>
+        <select required asp-for="rezCount" class="form-control " onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+            @for (int i = 1; i < 11; i++)
+            {
+                <option>@i</option>
+            }
+        </select>
+    </div>
+
+    @*<div class="form-group">
+        <label class="form-label">Tarih</label>
+        <input required asp-for="rezDate" class="form-control" type="date" />
+    </div>*@
+
+    <div class="form-group">
+        <label class="form-label">Varsa Eklemek İstedikleriniz</label>
+        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+        @*<input asp-for="Description"  class="form-control" size="7"   />*@
+    </div>
+    <button class="btn btn-outline-primary mt-4"> Rezervasyon Yap</button>
+</form>
+@if (ViewBag.ok == 1)
+{
+    <script>
+        swal("Uyarı!", "Başvuru formunu doldurduktan sonra Rezervasyonlarım sayfasından onay sürecini takip edebilirsiniz.");
+    </script>
+}
+
+<br />
+<br />
+<br />
+<br />
+<script>
+    $("#notletters").keyup(function () {
+        $("#notletters").val(this.value.match(/[0-9]*/));
+    });
+
+
+</script>

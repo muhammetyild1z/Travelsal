@@ -1,0 +1,50 @@
+﻿@model List<EntityLayer.Concrete.AppUser>
+
+@{
+    ViewData["Title"] = "Authority";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<table class="table table-bordered m-5 ">
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>Kullanıcı Adı</th>
+            <th>Email</th>
+            <th>Telefon Numarası</th>
+            <th>Rol</th>
+            <th>Rol Değiştir</th>
+        </tr>
+    </thead>
+    <form method="post" asp-action="Authority" asp-controller="Admin">
+    <tbody>
+
+            @foreach (var item in Model)
+            {
+
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.PhoneNumber</td>
+                <td>Eklenecek</td>
+
+
+                <td>
+                  @*  componenetten appuser dmnüşü istiyor*@
+                        @await Component.InvokeAsync("RoleUp")
+                </td>
+
+                <td><input class="btn btn-info" value="Güncelle" type="submit" /></td>
+
+            </tr>
+
+            }
+
+
+        </form>
+
+
+
+</table>
+

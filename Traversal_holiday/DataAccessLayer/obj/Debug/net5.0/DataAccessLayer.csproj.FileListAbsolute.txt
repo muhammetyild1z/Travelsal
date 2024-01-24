@@ -1,0 +1,54 @@
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll

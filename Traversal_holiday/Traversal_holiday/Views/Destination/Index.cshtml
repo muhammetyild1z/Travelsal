@@ -1,0 +1,84 @@
+﻿@model IPagedList<EntityLayer.Concrete.Destination>
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+
+<body>
+
+
+
+    <!-- about breadcrumb -->
+    <section class="w3l-about-breadcrumb text-left">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+            <div class="container">
+                <h2 class="title">Rotalar </h2>
+                <ul class="breadcrumbs-custom-path mt-2">
+                    <li><a href="#url">Anasayfa</a></li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Rotalar </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- //about breadcrumb -->
+    <!--  Work gallery section -->
+    <section class="grids-1 py-5">
+        <div class="grids py-lg-5 py-md-4">
+            <div class="container">
+                <h3 class="hny-title mb-5">Tur Gezileri</h3>
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+
+
+                        <div class="col-lg-4 col-md-4 col-6 mb-4">
+                            <div class="column">
+                                <a href="/Destination/Details/@item.destinationId"><img src="/IFormFileImage/DestinationCoverImages/@item.destinationImage" alt="" class="img-fluid"></a>
+                                <div class="info ">
+                                    <h4><a href="/Destination/Details/@item.destinationId">@item.destinationCity</a></h4>
+                                    <p>@item.destinationDayNight  </p>
+
+                                    <div class="dst-btm">
+                                        <h6 class="">Başlayan fiyatlarla </h6>
+                                        <span>@item.destinationPrice ₺</span>
+                                    </div>
+                                </div>
+                                </div>
+                            <a href="/Member/Reservations/NewReservation" class="btn btn-outline-info btn-sm mb-0 " style="color:#db0a93; border-color:#db0a93">Hemen Rezervasyon</a>
+                           
+                        </div>
+                    }
+                </div>
+                    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+               {
+                   LiElementClasses = new string[] { "page-item" },
+                   UlElementClasses = new string[] { "pagination justify-content-center" },
+                   PageClasses = new string[] { "page-link" },
+                   Display = PagedListDisplayMode.IfNeeded
+               })
+               
+            </div>
+        </div>
+       
+    </section>
+
+   
+
+
+    
+    <!--  //Work gallery section -->
+    <!-- grids block 5 -->
+    <!--/w3l-footer-29-main-->
+    <!-- Template JavaScript -->
+
+
+
+
+</body>
+
+

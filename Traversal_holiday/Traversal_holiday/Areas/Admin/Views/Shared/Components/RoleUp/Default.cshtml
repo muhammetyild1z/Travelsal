@@ -1,0 +1,14 @@
+﻿@model List< EntityLayer.Concrete.AppRole>
+
+@{
+    ViewData["Title"] = "Default";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+@foreach (var item in Model)
+{
+    @Html.DropDownListFor(x=>item.Id,(List<SelectListItem>)ViewBag.cv
+             , new { @class = "form-control ", @style = "color:black;  background-color:#fff; border-radius:5px; border-color:black" })
+}
+
+
+        

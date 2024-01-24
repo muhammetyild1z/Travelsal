@@ -1,0 +1,68 @@
+﻿@model EntityLayer.Concrete.Reservation
+@{
+    ViewData["Title"] = "Info";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+<div class="row m-5">
+    <div class="card-header pb-0  mb-4">
+        <h6 class="text-bolder  text-center " style="color:fuchsia"> Rezervasyon Detay</h6>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <span>Rezervasyon Yapan Kullanıcının Adı</span>
+            <input type="text" disabled="disabled"  asp-for="@Model.AppUserId" class="form-control" />
+        </div><br />
+        <div class="form-group">
+            <span>Rezervasyon Yapan Kullanıcının Soyadı</span>
+            <input type="text" disabled="disabled" asp-for="@Model.AppUser.SurName" class="form-control" />
+        </div><br />
+        <div class="form-group">
+            <span>Rezervasyon Yapan Kullanıcının Mail</span>
+            <input type="text" disabled="disabled" asp-for="@Model.AppUser.Email" class="form-control" />
+        </div><br />
+        <div class="form-group">
+            <span>Rezervasyon Yapan Kullanıcının Telefon</span>
+            <input type="text" disabled="disabled" asp-for="@Model.AppUser.PhoneNumber" class="form-control" />
+        </div><br />
+
+    </div>
+
+
+
+    <div class="col-md-6">
+        <div class="form-group">
+            <span>Rezervasyon Rotası</span>
+            <input type="text" disabled="disabled" asp-for="@Model.Destination.destinationCity" class="form-control" />
+        </div><br />
+        <div class="form-group">
+            <span>Rezervasyon Yapılan Turun Durumu</span>
+            <input type="text" disabled="disabled" asp-for="@Model.Destination.destinationStatus" class="form-control" />
+        </div><br />
+        <div class="form-group">
+            <span>Rezervasyon Kapasitesi</span>
+            <input type="text" disabled="disabled" asp-for="@Model.Destination.destinationCapacity" class="form-control" />
+
+        </div>
+    </div>
+
+
+    <div class="mt-3">
+        <div class="form-group">
+            <span>Rezervasyon Yapılan Tarih</span>
+            <input type="text" disabled="disabled" asp-for="@Model.rezDate" value="@Model.rezDate.ToString("dddd, dd MMMM yyyy HH:mm")" class="form-control" />
+        </div><br />
+
+        <div class="form-group">
+             <span>Rezervasyon Durumu</span>
+            <input type="text" disabled="disabled" asp-for="@Model.rezStatus" class="form-control" />
+
+        </div> <br />
+        <div class="form-group">
+            <span>Rezervasyon Yapan Kullanıcının Not</span>
+            <textarea disabled="disabled" asp-for="@Model.Description" class="form-control"></textarea>
+
+        </div>
+
+    </div>
+
+</div>

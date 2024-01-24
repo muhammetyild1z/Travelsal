@@ -1,0 +1,37 @@
+﻿@model Traversal_holiday.Areas.Member.Models.Profile
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+<br />
+<p>Profil Bilgilerini Düzenle</p>
+<form method="post" enctype="multipart/form-data">
+    <label>Ad Soyad</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <label>Kullanıcı Adı</label>
+    <input type="text" class="form-control" asp-for="UserName" />
+    <label>Mail Adresi</label>
+    <input type="text" class="form-control" asp-for="Email" />
+    <label>Telefon Numarası</label>
+    <input type="text" maxlength="10" class="form-control" asp-for="PhoneNumber" />
+    <label>Profil Resmi</label>
+    <input type="file" class="form-control" asp-for="image" />
+    <input type="hidden" class="form-control" asp-for="imageUrl" />
+
+    <br />
+    <span class="text-danger">  @Html.ValidationSummary()</span>
+
+
+    <button type="submit" class="btn btn-outline-primary btn-sm mb-0 ml-1">Güncelle</button>
+    @if (ViewBag.alert == 1)
+    {
+        <script>
+            swal("İşlem Başarılı!", "", "success");
+        </script>
+    }
+   
+
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</form>
+

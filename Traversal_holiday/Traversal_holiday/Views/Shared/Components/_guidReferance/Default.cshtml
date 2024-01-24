@@ -1,0 +1,35 @@
+﻿
+@model List<EntityLayer.Concrete.Guide>
+
+
+
+    <div class="py-5 w3l-homeblock1 text-center">
+        <div class="container mt-md-3">
+            @foreach (var item in Model)
+            {
+
+            
+            <h3 class="blog-desc-big text-center mb-4">
+                @item.guideDescription
+            </h3>
+            <div class="blog-post-align">
+                <div class="blog-post-img">
+                    <a href="#"><img src="@item.guideImage" alt="" class="rounded-circle img-fluid" /></a>
+                </div>
+                <div class="blog-post-info">
+                    <div class="author align-items-center mb-1">
+                        <a href="#" style="        color: #db0a93">@item.guideName</a>  <a href="#url">- Tur Rehberi</a>
+                    </div>
+                    <ul class="blog-meta">
+                        <li class="meta-item blog-lesson">
+                            <span class="meta-value">   @ViewBag.createtur </span>
+                        </li>
+                        @*<li class="meta-item blog-students">
+                            <span class="meta-value"> </span>
+                        </li>*@
+                    </ul>
+                </div>
+            </div>
+            }
+        </div>
+    </div>

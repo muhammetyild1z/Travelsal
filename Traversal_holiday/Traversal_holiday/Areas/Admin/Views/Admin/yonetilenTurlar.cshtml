@@ -1,0 +1,58 @@
+﻿@model List<EntityLayer.Concrete.Reservation>
+@{
+    ViewData["Title"] = "yonetilenTurlar";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+
+<div class="table-responsive text-nowrap m-5">
+    <h5 class="text-center"><strong style="color:fuchsia;">Yönettiğim Turların Rezervasyon Listesi</strong></h5>
+    <table class="table card-table table-hover">
+
+        <thead>
+
+            <tr>
+                <th style="color:fuchsia;">Rezervasyon Durumu</th>
+                <th style=" color:fuchsia;">Tur Durumu</th>
+                <th style=" color:fuchsia;">Tur Tarihi</th>
+                <th style=" color:fuchsia;">Tur Rotası</th>
+                <th style=" color:fuchsia;">Tur Kapasitesi</th>
+               @* <th style=" color:fuchsia;">Turun Yapılacağı Tarih</th>
+                <th style=" color:fuchsia;">Sisteme Eklenme Tarihi</th>
+                <th style=" color:fuchsia;">Turu Ekleyen Rehber</th>
+                <th style=" color:fuchsia;">İşlem</th>*@
+
+            </tr>
+        </thead>
+        <tbody class="table-border-bottom-0 table-hover" >
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.rezStatus</strong></td>
+                    <td>@item.Destination.destinationStatus</td>
+                    <td>@item.Destination.destinationDate.ToString("dd MMM yyyy")</td>
+                   
+                    <td>@item.Destination.destinationCity</td>
+                    <td>@item.Destination.destinationCapacity</td>
+                    <td><img src="~/IFormFileImage/DestinationCoverImages/@item.Destination.CoverImage" alt="" width="50" height="50" style="border-radius:5px"> </td>
+                   
+                    <td>
+
+                        <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                           <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/Admin/Admin/yonetilenTurlarUp/@item.rezervasyonId"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
+                                <a class="dropdown-item" href="/Admin/DestinationPanel/destinationRemove/@item.destinationId"><i class="bx bx-trash me-1"></i> Sil</a>
+                            </div>
+                        </div>
+                     
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,60 @@
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.dev.json
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Users\Muhammet\Desktop\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\refint\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Proje Ve Doyalar\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\refint\BusinessLayer.dll
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Masaüstü\Software\projeler\.CORE\Traversal_holiday\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll

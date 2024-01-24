@@ -1,0 +1,16 @@
+﻿@model EntityLayer.Concrete.AppUser
+@{
+    ViewData["Title"] = "RolesUp";
+    Layout = "~/Views/Shared/AdminLayout_.cshtml";
+}
+
+<form method="post" asp-action="RolesUp" asp-controller="Admin" class="row m-5">
+    <div class="col-md-8">
+        <label class="form-label">Kullanıcı Rol Düzenle</label><br /><br /><br />
+    <label class="form-control">@Model.Name</label><br />
+        <label class="form-control">@Model.UserName</label><br />
+        <label class="form-control">@Model.Email</label><br />
+
+    </div>
+</form>
+
